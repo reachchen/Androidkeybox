@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+    <Button 
+        android:id="@+id/btn_custom_systemkeybox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义系统键盘"/>
+    <Button 
+        android:id="@+id/btn_custom_randomkeybox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="随机排列键盘"/>
+    
+
+</LinearLayout>

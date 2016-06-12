@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ruichen.keyboxview.MainActivity" >
+    <EditText
+        android:id="@+id/et_inputpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入密码"/>
+     <android.inputmethodservice.KeyboardView
+            android:id="@+id/custom_keyboard_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:keyBackground="@drawable/jcd_keybox_bg"
+            android:keyPreviewLayout="@layout/key_preview_layout"
+            android:shadowColor="#f2f2f2"
+            android:shadowRadius="0.0"
+            android:background="#f2f2f2"
+            android:keyTextColor="#646464"
+            android:visibility="gone"
+            />
+</RelativeLayout>
